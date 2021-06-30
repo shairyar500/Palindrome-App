@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(61, 173, 173);
+}
+
+#palindrome{
+    width: 50%;
+    height: 100px;
+    min-width: 450px;
+    background-color: rgb(135, 246, 250);
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 18);
+}
+
+#input-text{
+    width: 70%;
+    border: 2px solid rgb(34, 30, 30);
+    padding: 10px 5px;
+    font-weight: 400;
+}
+
+#checkBtn{
+    width: 25%;
+    height: 40px;
+    float: right;
+    padding: 10px 20px;
+    background-color: #6896d3;
+    border: none;
+    border-radius: 3px;
+    color: rgb(250, 242, 242);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#checkBtn:hover{
+ color: rgb(100, 16, 23);   
+ border-radius: 10px;
+}
